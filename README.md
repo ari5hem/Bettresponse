@@ -66,7 +66,56 @@ Emergency response systems are **critical for saving lives**, but they often fac
 
 
 
-## Technologies Used:
+## Working Process of the App
+🔹 Step 1: User Authentication & Role Assignment
+Users log in using Firebase Authentication.
+The app identifies if they are Dispatchers or Responders.
+
+
+🔹 Step 2: Emergency Report & Incident Management (Dispatcher)
+Civilians report an emergency.
+Dispatchers receive alerts & assign the nearest available responder.
+AI analyzes the severity and prioritizes cases.
+
+
+🔹 Step 3: Responder Alert & Live Tracking
+Responders get a push notification & accept/decline the task.
+Live GPS tracking updates dispatchers in real-time.
+
+
+🔹 Step 4: Communication & Coordination
+Chat & notifications via Firebase Messaging/WebSockets.
+AI updates dispatchers on weather, roadblocks, hazards.
+
+
+🔹 Step 5: Incident Resolution & Report Generation
+Responders update their status (In Progress, Resolved).
+Dispatchers track response times & generate reports.
+
+
+🔹 Step 6: AI-Based Post-Emergency Analysis
+AI identifies high-risk areas based on response time & location data.
+Data insights help optimize future responses.
+
+
+🔹 Step 7: Continuous Monitoring & System Scaling
+Backend handles new emergencies & responder tracking.
+Cloud-based deployment ensures scalability & performance monitoring.
+
+
+## 🚀 Technologies Used  
+
+| **Component**         | **Technology**                                    |
+|----------------------|--------------------------------------------------|
+| **Backend**         | Node.js, Express.js, Firebase, PostgreSQL        |
+| **Frontend**        | React Native / Flutter (Mobile App)              |
+| **Authentication**  | Firebase Authentication                          |
+| **Database**        | Firebase Firestore, PostgreSQL                   |
+| **Real-time Tracking** | Google Maps API, WebSockets                    |
+| **Cloud Deployment** | AWS / GCP / Azure, Docker, Kubernetes           |
+| **Messaging**       | Firebase Cloud Messaging (FCM), WebSockets       |
+| **AI & Data Analysis** | Python (TensorFlow, Pandas, NumPy)             |
+| **CI/CD**           | GitHub Actions, Docker                           |
 
 
 
