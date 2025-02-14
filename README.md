@@ -16,12 +16,17 @@ By ensuring faster response times, improved situational awareness, and scalable 
 🚨 Current Scenario of Emergency Response Systems & Challenges
 Emergency response systems are critical for saving lives, but they often face delays, miscommunication, and inefficiencies. Here's an overview of where things stand today:
 
- *** Challenges in Existing Emergency Response Systems
+## Challenges in Existing Emergency Response Systems
 1️. Slow Response Times → Emergency services take longer to react due to poor coordination.
+
 2️. Lack of Real-Time Tracking → Dispatchers often struggle to locate responders quickly.
+
 3️. Inefficient Resource Allocation → Sometimes, the nearest responders aren’t sent due to outdated systems.
+
 4️. Limited Data Utilization → No AI-powered risk prediction or real-time analytics.
+
 5️.Communication Gaps → Civilians, responders, and dispatchers may not have a single communication channel.
+
 6️. Scalability Issues → Systems crash during disasters (earthquakes, floods) due to high traffic.
 
 # 🚨 Current Scenario of Emergency Response Systems & Challenges
